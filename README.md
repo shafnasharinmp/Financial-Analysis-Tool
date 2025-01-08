@@ -2,12 +2,13 @@
 The objective of this project is to develop a comprehensive financial analysis tool that integrates time series analysis with natural language processing (NLP) techniques, utilizing the advantages of  Large Language Models (LLMs). The tool will be built in Python and will include a user-friendly frontend interface, potentially using Streamlit. 
 <br>
 <br>
-![Forecast1](https://github.com/user-attachments/assets/2b804971-ce35-453a-ba2c-af1afd245993)
+![ImgFlow](https://github.com/user-attachments/assets/a23f0d15-39f7-4def-b09b-fec8b5919823)
+<br>
 
 The project aims to address the challenges in financial analysis, such as accuracy, scalability, and interpretability, by leveraging time series analysis and natural language processing techniques. These challenges include selecting the right forecasting model, handling large volumes of data, and integrating complex models into existing systems.
 <br>
 <br>
-![Forecast2 png](https://github.com/user-attachments/assets/201097e2-f828-4b60-9e1c-58e8ac1ad3e6)
+![Forecast1](https://github.com/user-attachments/assets/2b804971-ce35-453a-ba2c-af1afd245993)
 <br>
 # Objective:
 The goal of the project is to create a tool that offers users detailed financial analysis and forecasting advantages over the provided datasets. Advanced methodologies will be employed to detect patterns, trends, and sentiments, assisting users in making well-informed decisions.The tool aims to go in depth of the financial data by enhancing the efficiency of the analysis, providing valuable insights for financial analysts, investors, and decision-makers.
