@@ -28,7 +28,6 @@ The project will focus on:
 ●	Developing a user-friendly interface using Streamlit, ensuring seamless integration of the backend and frontend components.
 <br>
 ●	By considering the prediction capabilities, Providing documentation and real-time  support for the tool to facilitate its adoption and use in the financial industry.
-<br>
-![Forecast3](https://github.com/user-attachments/assets/b70f715e-f223-4fc2-917b-da6569e4d918)
+
 <br>
 
