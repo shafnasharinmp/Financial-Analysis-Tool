@@ -10,6 +10,8 @@ The project aims to address the challenges in financial analysis, such as accura
 
 # Objective:
 The goal of the project is to create a tool that offers users detailed financial analysis and forecasting advantages over the provided datasets. Advanced methodologies will be employed to detect patterns, trends, and sentiments, assisting users in making well-informed decisions.The tool aims to go in depth of the financial data by enhancing the efficiency of the analysis, providing valuable insights for financial analysts, investors, and decision-makers.
+<br>
+![Forecast1](https://github.com/user-attachments/assets/6131e476-a4c4-405f-b4c4-92fdacb3fb96)
 
 # Scope:
 <br>
