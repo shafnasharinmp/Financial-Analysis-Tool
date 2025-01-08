@@ -6,7 +6,7 @@ import os
 import google.generativeai as genai
 
 # Configure API key
-secret = 'AIzaSyDrkreHTnxikbUthuD5HOOQizo7jlWDaiw'  # Replace with your actual API key
+secret = ' '  # Replace with your actual API key
 genai.configure(api_key=secret)
 
 data = pd.read_csv('C:\Users\hp\OneDrive\Documents\@@@Internship2-MResult\Proj1\Datasets\Updated_date_EU.csv')

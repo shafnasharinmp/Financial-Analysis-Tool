@@ -77,7 +77,7 @@ for i, (name, group) in enumerate(filtered_grouped, start=1):
                     # Sum the values if both previous and next values are the same
                     imputed_df.at[idx, 'AMOUNT'] += imputed_df.at[idx + 1, 'AMOUNT']
                 else:
-                    # Introduce a small variation based on trend
+                    # Introduce a small variation based on trend if not possible
                     trend = (imputed_df.at[idx + 1, 'AMOUNT'] - imputed_df.at[idx - 1, 'AMOUNT']) / 2
                     imputed_df.at[idx, 'AMOUNT'] += trend
 
@@ -155,8 +155,6 @@ for i, (name, group) in enumerate(filtered_grouped, start=1):
   seasonal_smoother = DecomposeSmoother(smooth_type='lowess', periods=45, smooth_fraction=0.1)
   seasonal_smoother.smooth(Amt)
   seasonal_smoothed_data = seasonal_smoother.smooth_data[0]
-
-  # Find indices where 'AMOUNT' is zero and replace them with the smoothed values
   amount = imputed_df['AMOUNT'].copy()
   Amt = imputed_df['AMOUNT'].values
   missing_idxs = np.where(Amt == 0)[0]

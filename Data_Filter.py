@@ -44,32 +44,18 @@ def replace_days(date):
   return date.replace(day=1)
 
 df['UPDATED_DATE'] = df['UPDATED_DATE'].apply(replace_days)
-
 df = df.drop('DIFF', axis = 1)
-
 df['UPDATED_DATE'].dtype
 
 df['UPDATED_DATE'] = df['UPDATED_DATE'].dt.strftime('%Y/%m/%d')
 df['PERIOD_DATE'] = df['PERIOD_DATE'].dt.strftime('%Y/%m/%d')
-
-df
-
 df[df['UPDATED_DATE']== '2020/09/01' ]
 
-df.dtypes
 
 df_filtered = df.sort_values('UPDATED_DATE')
-df_filtered
-
 df_filtered.shape
 
 df_filtered.to_csv('Updated_date_EU.csv')
-
-
-
-
-
-
 
 df_filtered.query("ACCOUNT_ID == 35315 and MARKET == 8233 and CHANNEL_ID == 9774	and MPG_ID == 380436")
 
