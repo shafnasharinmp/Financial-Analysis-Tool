@@ -1,6 +1,4 @@
-
-pip install nixtla>=0.5.1
-
+#nixtla>=0.5.1
 import pandas as pd
 from nixtla import NixtlaClient
 
